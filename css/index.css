@@ -217,6 +217,9 @@ input.submit:focus {
 .summary_job > span {
   margin-left: 20px;
 }
+.summary_job > span > p:first-child {
+  font-weight: 600;
+}
 .summary_job > svg > path {
   fill: var(--primary-color);
 }
